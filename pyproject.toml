@@ -1,0 +1,32 @@
+[project]
+name = "project-agenticai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair>=5.5.0",
+    "datasets>=3.5.1",
+    "faiss-cpu>=1.11.0",
+    "grandalf>=0.8",
+    "langchain-anthropic>=0.3.12",
+    "langchain-community>=0.3.23",
+    "langchain-core>=0.3.58",
+    "langchain-google-genai>=2.1.4",
+    "langchain-groq>=0.3.2",
+    "langchain-huggingface>=0.1.2",
+    "langchain-openai>=0.3.16",
+    "pypdf>=5.4.0",
+    "scikit-learn>=1.6.1",
+    "sentence-transformers>=4.1.0",
+    "spacy>=3.8.5",
+    "tensorboard>=2.19.0",
+    "tokenizers>=0.21.1",
+    "torch>=2.7.0",
+    "torchaudio>=2.7.0",
+    "torchinfo>=1.8.0",
+    "torchmetrics>=1.7.1",
+    "torchtext>=0.18.0",
+    "torchvision>=0.22.0",
+    "wandb>=0.19.10",
+]
